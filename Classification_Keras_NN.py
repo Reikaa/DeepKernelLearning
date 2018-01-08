@@ -1,7 +1,12 @@
 #accuracy: F1-BAD:  0.429850746269 F1-OK:  0.900413107127
 #F1-score multiplied:  0.387043246049
 #50 iterations
-
+#100 iterations
+#F1-BAD:  0.438186813187 F1-OK:  0.901524879615
+#F1-score multiplied:  0.395036314007
+#150 iterations
+#F1-BAD:  0.443997317237 F1-OK:  0.899778359863
+#F1-score multiplied:  0.399499177887
 
 
 import numpy as np
