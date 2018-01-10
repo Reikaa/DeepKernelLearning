@@ -1,3 +1,32 @@
+#There is an important issue in the original code posted here: https://github.com/GPflow/GPflow/issues/505
+#The problem with the above code is that the total memory usage keep increasing over time.
+#I fixed the problem by saving and loading model variables before training the model with only one epoch
+#It is not nice, but it is the simplest solution, perhaps.
+#Script to run the code:
+#max=30
+#for i in `seq 1 $max`
+#do
+#  python -u code_just_load_dev.py $i
+#done
+#So I can have the results with DKL
+#Specificially, with 25 iterations:
+#Baseline: Epoch:  17
+#Valid:
+#F1-BAD:  0.478805006056 F1-OK:  0.893875873407
+#F1-score multiplied:  0.42799224298
+#Test:
+#F1-BAD:  0.447785453068 F1-OK:  0.888451120414
+#F1-score multiplied:  0.397835487483  
+#RBF: Best Dev:
+#Epoch:  16
+#Result from the previous epoch:
+#F1-BAD:  0.478700043917 F1-OK:  0.904003234937
+#F1-score multiplied:  0.432746388266
+#Result from the previous epoch:
+#F1-BAD:  0.435914405471 F1-OK:  0.896707735811
+#F1-score multiplied:  0.390887819537
+#The data (RBF) can be found here:
+#https://drive.google.com/file/d/1EJk1a4uH9y8yKcu2cwQNn2a-yzszOhsQ/view?usp=sharing
 
 import os
 import copy
