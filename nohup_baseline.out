@@ -1,0 +1,179 @@
+Using TensorFlow backend.
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Epoch:  0
+2018-01-10 17:37:10.290434: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Valid:
+F1-BAD:  0.39526505404 F1-OK:  0.907473029372
+F1-score multiplied:  0.358692375995
+Test:
+F1-BAD:  0.373001776199 F1-OK:  0.902513117923
+F1-score multiplied:  0.336638996028
+Epoch:  1
+Valid:
+F1-BAD:  0.422575976845 F1-OK:  0.904765693373
+F1-score multiplied:  0.382332246693
+Test:
+F1-BAD:  0.395493767977 F1-OK:  0.899585921325
+F1-score multiplied:  0.355780625644
+Epoch:  2
+Valid:
+F1-BAD:  0.443223443223 F1-OK:  0.902392037245
+F1-score multiplied:  0.399961305885
+Test:
+F1-BAD:  0.415661279308 F1-OK:  0.896886925085
+F1-score multiplied:  0.372801166676
+Epoch:  3
+Valid:
+F1-BAD:  0.45201793722 F1-OK:  0.901546890106
+F1-score multiplied:  0.407515365573
+Test:
+F1-BAD:  0.421476510067 F1-OK:  0.895801434443
+F1-score multiplied:  0.377559262302
+Epoch:  4
+Valid:
+F1-BAD:  0.434537775692 F1-OK:  0.903684757413
+F1-score multiplied:  0.392685164413
+Test:
+F1-BAD:  0.420084865629 F1-OK:  0.901780723469
+F1-score multiplied:  0.378824434046
+Epoch:  5
+Valid:
+F1-BAD:  0.446265938069 F1-OK:  0.902297927045
+F1-score multiplied:  0.402664830831
+Test:
+F1-BAD:  0.42935029532 F1-OK:  0.899059712288
+F1-score multiplied:  0.386011552981
+Epoch:  6
+Valid:
+F1-BAD:  0.440018966335 F1-OK:  0.905768770446
+F1-score multiplied:  0.39855543811
+Test:
+F1-BAD:  0.41619047619 F1-OK:  0.902264030612
+F1-score multiplied:  0.37551369655
+Epoch:  7
+Valid:
+F1-BAD:  0.456932289268 F1-OK:  0.905460668752
+F1-score multiplied:  0.413734216214
+Test:
+F1-BAD:  0.426862925483 F1-OK:  0.900080192462
+F1-score multiplied:  0.384210864124
+Epoch:  8
+Valid:
+F1-BAD:  0.452914798206 F1-OK:  0.901708024492
+F1-score multiplied:  0.408396907954
+Test:
+F1-BAD:  0.433250508245 F1-OK:  0.899078878565
+F1-score multiplied:  0.38952638109
+Epoch:  9
+Valid:
+F1-BAD:  0.459964412811 F1-OK:  0.902049378732
+F1-score multiplied:  0.414910612815
+Test:
+F1-BAD:  0.43619386394 F1-OK:  0.89770068576
+F1-score multiplied:  0.391571530783
+Epoch:  10
+Valid:
+F1-BAD:  0.460184777827 F1-OK:  0.900800388067
+F1-score multiplied:  0.414534626449
+Test:
+F1-BAD:  0.432167520606 F1-OK:  0.897213597322
+F1-score multiplied:  0.387746575809
+Epoch:  11
+Valid:
+F1-BAD:  0.455545371219 F1-OK:  0.904654895666
+F1-score multiplied:  0.412111350271
+Test:
+F1-BAD:  0.423670274004 F1-OK:  0.899659250351
+F1-score multiplied:  0.381158881106
+Epoch:  12
+Valid:
+F1-BAD:  0.469396369776 F1-OK:  0.897580053777
+F1-score multiplied:  0.421320818826
+Test:
+F1-BAD:  0.441547339175 F1-OK:  0.89381933439
+F1-score multiplied:  0.394663548803
+Epoch:  13
+Valid:
+F1-BAD:  0.476310272537 F1-OK:  0.898099045443
+F1-score multiplied:  0.4277738011
+Test:
+F1-BAD:  0.43983928949 F1-OK:  0.892137302007
+F1-score multiplied:  0.392397037043
+Epoch:  14
+Valid:
+F1-BAD:  0.470846120123 F1-OK:  0.902354178465
+F1-score multiplied:  0.424869963907
+Test:
+F1-BAD:  0.435278630978 F1-OK:  0.89591589163
+F1-score multiplied:  0.38997304278
+Epoch:  15
+Valid:
+F1-BAD:  0.470846120123 F1-OK:  0.902354178465
+F1-score multiplied:  0.424869963907
+Test:
+F1-BAD:  0.43818741751 F1-OK:  0.896774715059
+F1-score multiplied:  0.39295539648
+Epoch:  16
+Valid:
+F1-BAD:  0.469683257919 F1-OK:  0.905727155727
+F1-score multiplied:  0.425404881287
+Test:
+F1-BAD:  0.427570621469 F1-OK:  0.898121706954
+F1-score multiplied:  0.384010456397
+Epoch:  17
+Valid:
+F1-BAD:  0.478805006056 F1-OK:  0.893875873407
+F1-score multiplied:  0.42799224298
+Test:
+F1-BAD:  0.447785453068 F1-OK:  0.888451120414
+F1-score multiplied:  0.397835487483
+Epoch:  18
+Valid:
+F1-BAD:  0.471004869411 F1-OK:  0.903496729387
+F1-score multiplied:  0.425551359038
+Test:
+F1-BAD:  0.439902243946 F1-OK:  0.898293460282
+F1-score multiplied:  0.3951613089
+Epoch:  19
+Valid:
+F1-BAD:  0.46511627907 F1-OK:  0.903595034661
+F1-score multiplied:  0.420276760307
+Test:
+F1-BAD:  0.434821628898 F1-OK:  0.898554226572
+F1-score multiplied:  0.390710812451
+Epoch:  20
+Valid:
+F1-BAD:  0.47315582715 F1-OK:  0.902275119424
+F1-score multiplied:  0.426916730447
+Test:
+F1-BAD:  0.439632545932 F1-OK:  0.896342450235
+F1-score multiplied:  0.394061313423
+Epoch:  21
+Valid:
+F1-BAD:  0.467023172906 F1-OK:  0.903532827875
+F1-score multiplied:  0.421970768099
+Test:
+F1-BAD:  0.43234836703 F1-OK:  0.89692177351
+F1-score multiplied:  0.38778266413
+Epoch:  22
+Valid:
+F1-BAD:  0.46584938704 F1-OK:  0.901278524033
+F1-score multiplied:  0.419860047973
+Test:
+F1-BAD:  0.435958978835 F1-OK:  0.895365310666
+F1-score multiplied:  0.390342546522
+Epoch:  23
+Valid:
+F1-BAD:  0.457831325301 F1-OK:  0.90202403032
+F1-score multiplied:  0.412974857255
+Test:
+F1-BAD:  0.43942414175 F1-OK:  0.897832317442
+F1-score multiplied:  0.394529195527
+Epoch:  24
+Valid:
+F1-BAD:  0.478885135135 F1-OK:  0.899462277986
+F1-score multiplied:  0.430739114542
+Test:
+F1-BAD:  0.451464435146 F1-OK:  0.893014525869
+F1-score multiplied:  0.403164298499

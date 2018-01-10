@@ -1,0 +1,271 @@
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:04:53.484951: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  0
+[196781 138853 132361 ..., 173685  43567 199340]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:07:58.690375: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  1
+Result from the previous epoch:
+F1-BAD:  0.348012889366 F1-OK:  0.905022688155
+F1-score multiplied:  0.314959560647
+[ 78744   6979 120965 ...,   5192 208780 128037]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:10:55.586536: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  2
+Result from the previous epoch:
+F1-BAD:  0.399338374291 F1-OK:  0.898547254151
+F1-score multiplied:  0.358824399696
+[152724 160800 141520 ..., 203245 100879  89256]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:13:52.704164: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  3
+Result from the previous epoch:
+F1-BAD:  0.39450867052 F1-OK:  0.899984086569
+F1-score multiplied:  0.355051525482
+[216150  58697 135636 ...,  77049 198296  71530]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:16:46.629902: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  4
+Result from the previous epoch:
+F1-BAD:  0.429733890477 F1-OK:  0.895194212037
+F1-score multiplied:  0.384695291471
+[ 14441 166462 113725 ..., 115397 204974 214138]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:19:41.686832: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  5
+Result from the previous epoch:
+F1-BAD:  0.434706780031 F1-OK:  0.895024492936
+F1-score multiplied:  0.389073215372
+[126052  71332 201999 ...,  20463  18638  35683]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:22:43.968065: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  6
+Result from the previous epoch:
+F1-BAD:  0.422345850719 F1-OK:  0.900216224874
+F1-score multiplied:  0.380202587325
+[164743 118425 171943 ...,  41187 117449 162698]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:25:42.245497: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  7
+Result from the previous epoch:
+F1-BAD:  0.433022515351 F1-OK:  0.899843316862
+F1-score multiplied:  0.389652416489
+[157494 117663 137226 ...,  49689 189636  61615]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:28:44.531748: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  8
+Result from the previous epoch:
+F1-BAD:  0.435413005272 F1-OK:  0.896102846054
+F1-score multiplied:  0.390174833234
+[126996 138641  61779 ..., 149489  25940  70083]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:31:41.193857: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  9
+Result from the previous epoch:
+F1-BAD:  0.430362116992 F1-OK:  0.901761409127
+F1-score multiplied:  0.388083949053
+[ 41779  31799  96697 ..., 197109 187006  86364]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:34:25.289300: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  10
+Result from the previous epoch:
+F1-BAD:  0.423474178404 F1-OK:  0.901869905706
+F1-score multiplied:  0.381918617346
+[169504 127298   8438 ..., 181568  94735  83209]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:37:23.615821: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  11
+Result from the previous epoch:
+F1-BAD:  0.432915921288 F1-OK:  0.897807865893
+F1-score multiplied:  0.388675319403
+[ 54705 137322  28849 ...,  21584  36543 141209]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:40:38.560024: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  12
+Result from the previous epoch:
+F1-BAD:  0.436629064366 F1-OK:  0.897161545605
+F1-score multiplied:  0.391726806243
+[  3942 146278 214203 ...,  40177 150781 210763]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:43:55.066985: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  13
+Result from the previous epoch:
+F1-BAD:  0.435407773534 F1-OK:  0.898820308411
+F1-score multiplied:  0.391353349292
+[ 50312 192275 139975 ...,  65689 164706 178352]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:47:01.976397: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  14
+Result from the previous epoch:
+F1-BAD:  0.428767750802 F1-OK:  0.899927774657
+F1-score multiplied:  0.385860007824
+[115153 205316 197579 ..., 140556  79192 117355]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:50:13.708844: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  15
+Result from the previous epoch:
+F1-BAD:  0.434178066831 F1-OK:  0.898384953079
+F1-score multiplied:  0.390059042198
+[ 99894  12052 216556 ...,   8076 184053   7624]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:53:03.963265: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  16
+Result from the previous epoch:
+F1-BAD:  0.435914405471 F1-OK:  0.896707735811
+F1-score multiplied:  0.390887819537
+[163192  74617  62409 ...,  98885 133241 105129]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:56:08.122303: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  17
+Result from the previous epoch:
+F1-BAD:  0.442725123576 F1-OK:  0.894743251471
+F1-score multiplied:  0.396125316577
+[ 58292  67046 185166 ...,  34959  64753 207471]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 16:59:18.696199: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  18
+Result from the previous epoch:
+F1-BAD:  0.442392260334 F1-OK:  0.897493936944
+F1-score multiplied:  0.397044371401
+[199405  25737 155767 ...,  91256  94483 191786]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:02:25.887231: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  19
+Result from the previous epoch:
+F1-BAD:  0.434763948498 F1-OK:  0.893048562612
+F1-score multiplied:  0.388265319281
+[ 55037   9758  86640 ...,  99682  82677 207470]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:05:33.771963: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  20
+Result from the previous epoch:
+F1-BAD:  0.435973522027 F1-OK:  0.900790942305
+F1-score multiplied:  0.392720999727
+[ 22592 172702  11366 ...,  23775  37135  92634]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:08:45.809579: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  21
+Result from the previous epoch:
+F1-BAD:  0.429194399816 F1-OK:  0.900244675304
+F1-score multiplied:  0.386379973105
+[103204 205778  92728 ..., 202552  70863  80841]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:11:59.877270: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  22
+Result from the previous epoch:
+F1-BAD:  0.436055822466 F1-OK:  0.901071557571
+F1-score multiplied:  0.392917499138
+[ 90748 183045 214240 ...,  24932 162752 109429]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:15:15.595010: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  23
+Result from the previous epoch:
+F1-BAD:  0.443571272648 F1-OK:  0.896830857652
+F1-score multiplied:  0.397808404878
+[121782 198968   5080 ...,   9256 127718 107091]
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:18:06.854081: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  24
+Result from the previous epoch:
+F1-BAD:  0.440195642508 F1-OK:  0.898426784994
+F1-score multiplied:  0.395483555867
+[ 61397 189391 208300 ..., 216465 211136    899]

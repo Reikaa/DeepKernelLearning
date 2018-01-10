@@ -1,0 +1,431 @@
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:21:37.475426: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  1
+Result from the previous epoch:
+F1-BAD:  0.363043478261 F1-OK:  0.908451804406
+F1-score multiplied:  0.329807502904
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:22:03.324667: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  2
+Result from the previous epoch:
+F1-BAD:  0.426120114395 F1-OK:  0.904017857143
+F1-score multiplied:  0.385220192701
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:22:28.479982: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  3
+Result from the previous epoch:
+F1-BAD:  0.435203094778 F1-OK:  0.907109909337
+F1-score multiplied:  0.394777039847
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:22:52.568191: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  4
+Result from the previous epoch:
+F1-BAD:  0.460584588131 F1-OK:  0.901647286822
+F1-score multiplied:  0.41528484424
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:23:16.708265: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  5
+Result from the previous epoch:
+F1-BAD:  0.458242238741 F1-OK:  0.899716713881
+F1-score multiplied:  0.412288201201
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:23:40.898096: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  6
+Result from the previous epoch:
+F1-BAD:  0.454715219421 F1-OK:  0.90656
+F1-score multiplied:  0.412226629318
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:24:04.795546: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  7
+Result from the previous epoch:
+F1-BAD:  0.458295142071 F1-OK:  0.905136436597
+F1-score multiplied:  0.414819631804
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:24:28.808134: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  8
+Result from the previous epoch:
+F1-BAD:  0.467520989837 F1-OK:  0.902657726795
+F1-score multiplied:  0.422011433915
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:24:52.586632: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  9
+Result from the previous epoch:
+F1-BAD:  0.463888888889 F1-OK:  0.907226406025
+F1-score multiplied:  0.420852249461
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:25:17.202433: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  10
+Result from the previous epoch:
+F1-BAD:  0.457224334601 F1-OK:  0.908916892646
+F1-score multiplied:  0.415578921448
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:25:43.110818: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  11
+Result from the previous epoch:
+F1-BAD:  0.47202166065 F1-OK:  0.905842588122
+F1-score multiplied:  0.427577322733
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:26:07.432998: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  12
+Result from the previous epoch:
+F1-BAD:  0.469858156028 F1-OK:  0.903439367027
+F1-score multiplied:  0.424488355075
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:26:32.294200: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  13
+Result from the previous epoch:
+F1-BAD:  0.464884458541 F1-OK:  0.905026135907
+F1-score multiplied:  0.420732585156
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:26:58.200782: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  14
+Result from the previous epoch:
+F1-BAD:  0.465841357176 F1-OK:  0.906508305914
+F1-score multiplied:  0.422289059518
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:27:22.930960: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  15
+Result from the previous epoch:
+F1-BAD:  0.466876971609 F1-OK:  0.90477340417
+F1-score multiplied:  0.422417866931
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:27:47.525005: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  16
+Result from the previous epoch:
+F1-BAD:  0.478700043917 F1-OK:  0.904003234937
+F1-score multiplied:  0.432746388266
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:28:11.804031: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  17
+Result from the previous epoch:
+F1-BAD:  0.473661670236 F1-OK:  0.90013813277
+F1-score multiplied:  0.426360931411
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:28:35.947036: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  18
+Result from the previous epoch:
+F1-BAD:  0.468348826915 F1-OK:  0.903012194137
+F1-score multiplied:  0.422924701814
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:29:00.734311: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  19
+Result from the previous epoch:
+F1-BAD:  0.468763464024 F1-OK:  0.899926953981
+F1-score multiplied:  0.421852876317
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:29:25.951328: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  20
+Result from the previous epoch:
+F1-BAD:  0.465351078476 F1-OK:  0.906523308995
+F1-score multiplied:  0.421851599505
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:29:50.910744: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  21
+Result from the previous epoch:
+F1-BAD:  0.461823229986 F1-OK:  0.906818363913
+F1-score multiplied:  0.418789785833
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:30:14.843695: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  22
+Result from the previous epoch:
+F1-BAD:  0.474341192788 F1-OK:  0.908886930042
+F1-score multiplied:  0.431122510506
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:30:39.094191: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  23
+Result from the previous epoch:
+F1-BAD:  0.474978050922 F1-OK:  0.903267550954
+F1-score multiplied:  0.429032260813
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:31:03.201591: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  24
+Result from the previous epoch:
+F1-BAD:  0.469841269841 F1-OK:  0.906006271609
+F1-score multiplied:  0.425679137137
+Done!
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:31:27.155673: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  25
+2018-01-10 17:31:33.591410: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.593343: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.594133: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.596617: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.597915: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.600196: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.601859: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.604167: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.605842: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.607941: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.608485: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.618535: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.619571: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.621257: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.623326: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.624913: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.625201: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.627547: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.630247: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.632137: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.634252: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.635711: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.637625: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.640594: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.643025: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.645242: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.646870: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.648039: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+2018-01-10 17:31:33.649092: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+Traceback (most recent call last):
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1323, in _do_call
+    return fn(*args)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1302, in _run_fn
+    status, run_metadata)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 473, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+	 [[Node: save/RestoreV2 = RestoreV2[dtypes=[DT_DOUBLE], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2/tensor_names, save/RestoreV2/shape_and_slices)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "code_just_load_dev.py", line 232, in <module>
+    main(int(sys.argv[1:][0]))
+  File "code_just_load_dev.py", line 209, in main
+    saver.restore(tf_session, "model_at_epoch"+str(i-1)+".ckpt")
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1666, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1120, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1317, in _do_run
+    options, run_metadata)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1336, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.NotFoundError: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+	 [[Node: save/RestoreV2 = RestoreV2[dtypes=[DT_DOUBLE], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2/tensor_names, save/RestoreV2/shape_and_slices)]]
+
+Caused by op 'save/RestoreV2', defined at:
+  File "code_just_load_dev.py", line 232, in <module>
+    main(int(sys.argv[1:][0]))
+  File "code_just_load_dev.py", line 191, in main
+    saver = tf.train.Saver()
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1218, in __init__
+    self.build()
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1227, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1263, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 751, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 427, in _AddRestoreOps
+    tensors = self.restore_op(filename_tensor, saveable, preferred_shard)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 267, in restore_op
+    [spec.tensor.dtype])[0])
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1021, in restore_v2
+    shape_and_slices=shape_and_slices, dtypes=dtypes, name=name)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+NotFoundError (see above for traceback): Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch24.ckpt
+	 [[Node: save/RestoreV2 = RestoreV2[dtypes=[DT_DOUBLE], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2/tensor_names, save/RestoreV2/shape_and_slices)]]
+
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
+2018-01-10 17:31:51.101276: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[<tf.Variable 'sconvnet_kernel/W1:0' shape=(72, 512) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b1:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/W2:0' shape=(512, 17) dtype=float32_ref>, <tf.Variable 'sconvnet_kernel/b2:0' shape=(17,) dtype=float32_ref>, <tf.Variable '6/SVGP/kern/variance/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/kern/lengthscales/unconstrained:0' shape=() dtype=float64_ref>, <tf.Variable '6/SVGP/Z/unconstrained:0' shape=(100, 17) dtype=float64_ref>, <tf.Variable '6/SVGP/q_mu/unconstrained:0' shape=(100, 2) dtype=float64_ref>, <tf.Variable '6/SVGP/q_sqrt/unconstrained:0' shape=(2, 5050) dtype=float64_ref>]
+Epoch:  26
+2018-01-10 17:31:57.768741: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.769992: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.770991: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.773000: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.775917: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.776767: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.779482: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.782509: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.784546: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.786401: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.788752: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.791878: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.794610: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.798949: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.801686: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.803236: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.805327: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.807524: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.808762: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.811355: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.812968: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.814573: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.814991: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.816788: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.818897: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.820883: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.825490: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.826434: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+2018-01-10 17:31:57.827049: W tensorflow/core/framework/op_kernel.cc:1192] Not found: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+Traceback (most recent call last):
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1323, in _do_call
+    return fn(*args)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1302, in _run_fn
+    status, run_metadata)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 473, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+	 [[Node: save/RestoreV2_2 = RestoreV2[dtypes=[DT_DOUBLE], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2_2/tensor_names, save/RestoreV2_2/shape_and_slices)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "code_just_load_dev.py", line 232, in <module>
+    main(int(sys.argv[1:][0]))
+  File "code_just_load_dev.py", line 209, in main
+    saver.restore(tf_session, "model_at_epoch"+str(i-1)+".ckpt")
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1666, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1120, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1317, in _do_run
+    options, run_metadata)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1336, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.NotFoundError: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+	 [[Node: save/RestoreV2_2 = RestoreV2[dtypes=[DT_DOUBLE], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2_2/tensor_names, save/RestoreV2_2/shape_and_slices)]]
+
+Caused by op 'save/RestoreV2_2', defined at:
+  File "code_just_load_dev.py", line 232, in <module>
+    main(int(sys.argv[1:][0]))
+  File "code_just_load_dev.py", line 191, in main
+    saver = tf.train.Saver()
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1218, in __init__
+    self.build()
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1227, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1263, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 751, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 427, in _AddRestoreOps
+    tensors = self.restore_op(filename_tensor, saveable, preferred_shard)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 267, in restore_op
+    [spec.tensor.dtype])[0])
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1021, in restore_v2
+    shape_and_slices=shape_and_slices, dtypes=dtypes, name=name)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+NotFoundError (see above for traceback): Unsuccessful TensorSliceReader constructor: Failed to find any matching files for model_at_epoch25.ckpt
+	 [[Node: save/RestoreV2_2 = RestoreV2[dtypes=[DT_DOUBLE], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2_2/tensor_names, save/RestoreV2_2/shape_and_slices)]]
+
+/home/hoangcuong2011/anaconda2/envs/py36_env_pip_local/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Using TensorFlow backend.
