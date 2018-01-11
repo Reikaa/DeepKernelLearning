@@ -10,7 +10,7 @@ Note: It should run with TF 1.4, GPflow git commit f618fe4d9aa096b32a3d24576d68f
 
 
 
-Baseline:
+Baseline: 512-17-output
 Epoch:  46
 Valid:
 F1-BAD:  0.478405315615 F1-OK:  0.897335295079
@@ -71,3 +71,56 @@ F1-score multiplied:  0.407667598265
 
 
 
+
+
+Baseline: 512-256-17-output
+
+Baseline:
+Epoch:  21
+Valid:
+F1-BAD:  0.490836653386 F1-OK:  0.894658753709
+F1-score multiplied:  0.439131308594
+Test:
+F1-BAD:  0.459352801894 F1-OK:  0.886870355078
+F1-score multiplied:  0.407386382522
+
+Gaussian Processes
+
+Epoch 49: \Dev set LL -0.8574439718192862, Acc 0.8352683782577515, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.397602397602 F1-OK:  0.904588607595
+F1-score multiplied:  0.359666599224
+Epoch 49: 
+Test set LL -0.9088562727056888, Acc 0.826686680316925, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.373023715415 F1-OK:  0.899445324881
+F1-score multiplied:  0.3355144369
+
+
+
+
+Matern12:
+
+Epoch 38: \Dev set LL -1.031681831273476, Acc 0.8375905156135559, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.489918489918 F1-OK:  0.903419705954
+F1-score multiplied:  0.442602018104
+Epoch 38: 
+Test set LL -1.0955293990816295, Acc 0.826686680316925, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.45861774744 F1-OK:  0.896829268293
+F1-score multiplied:  0.411301818863
+
+
+RBF:
+
+Epoch 43: \Dev set LL -1.0397760432170096, Acc 0.8419615030288696, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.466574458276 F1-OK:  0.907239637617
+F1-score multiplied:  0.423294842448
+Epoch 43: 
+Test set LL -1.0891987405798425, Acc 0.8307839632034302, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.441891891892 F1-OK:  0.900273663876
+F1-score multiplied:  0.397823632551
+[ 86065 158811  87623 ...,  10358 112387 134839]
