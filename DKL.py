@@ -28,6 +28,26 @@
 #The data (RBF) can be found here:
 #https://drive.google.com/file/d/1EJk1a4uH9y8yKcu2cwQNn2a-yzszOhsQ/view?usp=sharing
 
+#Matern52
+#Epoch:  20
+#Result from the previous epoch on dev:
+#F1-BAD:  0.469744509189 F1-OK:  0.904681331077
+#F1-score multiplied:  0.424969087839
+#Result from the previous epoch on test:
+#F1-BAD:  0.441809398331 F1-OK:  0.897226489852
+#F1-score multiplied:  0.396403095648
+#data: https://drive.google.com/file/d/1vdn5Cc0WfRGndDBwStnlJuTHwEZ3rl8U/view?usp=sharing
+
+#Matern32
+#Epoch:  25
+#Result from the previous epoch on dev:
+#F1-BAD:  0.474591651543 F1-OK:  0.906898215147
+#F1-score multiplied:  0.430406321708
+#Result from the previous epoch on test:
+#F1-BAD:  0.44170955471 F1-OK:  0.899472178573
+#F1-score multiplied:  0.397305455472
+#data: https://drive.google.com/file/d/18FOxC9jCE4qNbK-dFhwpI8JqHkX5vGjk/view?usp=sharing
+
 import os
 import copy
 import tensorflow as tf
