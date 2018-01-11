@@ -124,3 +124,20 @@ Result from the previous epoch on test:
 F1-BAD:  0.441891891892 F1-OK:  0.900273663876
 F1-score multiplied:  0.397823632551
 [ 86065 158811  87623 ...,  10358 112387 134839]
+
+
+
+------
+
+
+Baseline: 512-256-128-17-output
+
+Epoch:  12
+Valid:
+F1-BAD:  0.491790148178 F1-OK:  0.895512556608
+F1-score multiplied:  0.440404252909
+Test:
+F1-BAD:  0.464313421257 F1-OK:  0.885546162771
+F1-score multiplied:  0.411170968517
+
+
