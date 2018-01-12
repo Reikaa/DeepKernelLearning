@@ -141,3 +141,41 @@ F1-BAD:  0.464313421257 F1-OK:  0.885546162771
 F1-score multiplied:  0.411170968517
 
 
+
+------
+larger-scale with 144 features
+
+baseline:
+Epoch:  15
+Valid:
+F1-BAD:  0.502758077226 F1-OK:  0.895736946464
+F1-score multiplied:  0.450338984905
+Test:
+F1-BAD:  0.489992301771 F1-OK:  0.890004980907
+F1-score multiplied:  0.436095589182
+
+RBF:
+Epoch 40: \Dev set LL -0.9904265657295217, Acc 0.8485179543495178, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.501573033708 F1-OK:  0.910686961424
+F1-score multiplied:  0.456776022
+Epoch 40: 
+Test set LL -1.0630065542831817, Acc 0.8377492427825928, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.470588235294 F1-OK:  0.904193548387
+F1-score multiplied:  0.4255028463
+
+
+Matern12:
+
+Epoch 23: \Dev set LL -1.0098853155593643, Acc 0.8431908488273621, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.487042001787 F1-OK:  0.907449209932
+F1-score multiplied:  0.441965879726
+Epoch 23: 
+Test set LL -1.067731174472187, Acc 0.8333788514137268, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.470256187581 F1-OK:  0.90114253302
+F1-score multiplied:  0.423767852045
+
+
