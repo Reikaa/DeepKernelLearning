@@ -166,7 +166,7 @@ F1-BAD:  0.470588235294 F1-OK:  0.904193548387
 F1-score multiplied:  0.4255028463
 
 
-Matern12:
+Matern12: (more detailed) https://drive.google.com/file/d/1e95Au14DdZ2WSTMi_I6gpt-ap7vuNIs6/view?usp=sharing
 
 Epoch 23: \Dev set LL -1.0098853155593643, Acc 0.8431908488273621, Outputs [1 1 1 ..., 1 1 1]
 Result from the previous epoch on dev:
