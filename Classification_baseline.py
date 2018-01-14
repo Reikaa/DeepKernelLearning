@@ -71,7 +71,7 @@ def make_feedforward_nn(x):
 
     W4 = tf.get_variable("W4", shape=[17, 1], initializer=tf.contrib.layers.xavier_initializer())
     b4 = tf.get_variable("b4", initializer=create_bias([1]))
-    h4 = (tf.matmul(h2, W4) + b4)
+    h4 = (tf.matmul(h3, W4) + b4)
     return h4
 
 def convertContinuoustoOutput(y_preds):
