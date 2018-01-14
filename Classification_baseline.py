@@ -125,6 +125,7 @@ def main():
     model = make_feedforward_nn(x)
     cost = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=model, labels=y))
     optimizer = tf.train.AdamOptimizer(learning_rate=1e-4).minimize(cost)
+    predict = tf.sigmoid(model)
     
 
     init = tf.global_variables_initializer()
@@ -152,11 +153,11 @@ def main():
                 indx_array = np.mod(np.arange(data_indx, lastIndex), x_train_shuffle.shape[0])
                 data_indx += minibatch_size
                 sess.run([optimizer,cost], feed_dict={x: x_train_shuffle[indx_array], y: y_train_shuffle[indx_array]})
-            predict_op = sess.run([model], feed_dict={x: x_valid, y: y_valid})
+            predict_op = sess.run([predict], feed_dict={x: x_valid, y: y_valid})
             print("Result from the previous epoch on dev:")
             compute_scores(y_valid, convertContinuoustoOutput(predict_op))
 
-            predict_op = sess.run([model], feed_dict={x: x_test, y: y_test})
+            predict_op = sess.run([predict], feed_dict={x: x_test, y: y_test})
             print("Result from the previous epoch on test:")
             compute_scores(y_test, convertContinuoustoOutput(predict_op))
 
