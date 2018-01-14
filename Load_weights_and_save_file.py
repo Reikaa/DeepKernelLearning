@@ -54,8 +54,6 @@ def resampleFile():
     filename.close()
     file.close()
 
-x = tf.placeholder("float", [None, 144])
-y = tf.placeholder("float", [None, 1])
 
 def make_feedforward_nn(x):
     W1 = tf.get_variable("W1", shape=[144, 512], initializer=tf.contrib.layers.xavier_initializer())
@@ -89,37 +87,11 @@ def convertContinuoustoOutput(y_preds):
         y_preds_binary.append(x)
     return y_preds_binary
 
-def main():
-    dataset = np.loadtxt("test", delimiter=",")
-    x_test = dataset[:,0:144]
-    y_test = dataset[:,144].reshape(-1,1)
-    #print(x_test[20])
+def load(epoch_number):
 
-    dataset = np.loadtxt("dev", delimiter=",")
-    x_valid = dataset[:,0:144]
-    y_valid = dataset[:,144].reshape(-1,1)
-    #resampleFile()
-    dataset = np.loadtxt("train.revised", delimiter=",")
-    x_train = dataset[:,0:144]
-    y_train = dataset[:,144].reshape(-1,1)
+    x = tf.placeholder("float", [None, 144])
 
-    
-    x_train_root = x_train
-    x_valid_root = x_valid
-    x_train, x_test, x_valid = standardize_data(copy.deepcopy(x_train_root), x_test, copy.deepcopy(x_valid_root))
-
-    
-
-    # ## We have some settings for the model and its training which we will set up below.
-    num_h = 17
-    num_classes = 1 #could be improved here
-    num_inducing = 100
-    minibatch_size = 250
-
-
-    print(len(y_train))
-    print(len(y_test))
-    print(len(y_valid))
+    y = tf.placeholder("float", [None, 1])
 
 
     model = make_feedforward_nn(x)
@@ -133,49 +105,13 @@ def main():
 
     with tf.Session() as sess:
         sess.run(init)
-        # ## We now go through a training loop where we optimise the NN and GP. we will print out the test results at
-        # regular intervals.    
-        results = []    
-        SEED = 449
-        np.random.seed(SEED)
-        for i in range(30): #100 epochs        
-            print("epoch: ")
-            print(i)
-            if i>0:
-                saver.restore(sess, "baselinemodel_at_epoch"+str((i-1))+".ckpt")
-                predict_op = sess.run([predict], feed_dict={x: x_valid, y: y_valid})
-                print("Result from the previous epoch on dev:")
-                compute_scores(y_valid, convertContinuoustoOutput(predict_op))
-                predict_op = sess.run([predict], feed_dict={x: x_test, y: y_test})
-                print("Result from the previous epoch on test:")
-                compute_scores(y_test, convertContinuoustoOutput(predict_op))
-                #variables_names =[v.name for v in tf.trainable_variables()]
-                #values = sess.run(variables_names)
-                #for k,v in zip(variables_names, values):
-                #    print(k, v)
-
-
-            shuffle = np.arange(len(y_train))        
-            np.random.shuffle(shuffle)
-            print(shuffle)
-            x_train_shuffle = x_train[shuffle]
-            y_train_shuffle = y_train[shuffle]
-            data_indx = 0
-            while data_indx<len(y_train):
-                lastIndex = data_indx + minibatch_size
-                if lastIndex>=len(y_train):
-                    lastIndex = len(y_train)
-                indx_array = np.mod(np.arange(data_indx, lastIndex), x_train_shuffle.shape[0])
-                data_indx += minibatch_size
-                sess.run([optimizer,cost], feed_dict={x: x_train_shuffle[indx_array], y: y_train_shuffle[indx_array]})
-            save_path = saver.save(sess, "./baselinemodel_at_epoch"+str((i))+".ckpt")
-
-            
-
-
-    print("Done!")
-
+        saver.restore(sess, "baselinemodel_at_epoch"+str(epoch_number-1)+".ckpt")
+        variables_names =[v.name for v in tf.trainable_variables()]
+        values = sess.run(variables_names)
+        for k,v in zip(variables_names, values):
+            print(k, v)
+        return variables_names, values
 
 
 if __name__ == '__main__':
-    main()
+    load(10)
