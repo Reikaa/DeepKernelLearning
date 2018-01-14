@@ -221,3 +221,46 @@ Result from the previous epoch on test:
 F1-BAD:  0.471702268223 F1-OK:  0.903058956641
 F1-score multiplied:  0.425974958187
 [151463 159307 100073 ...,  99926  64887  45399]
+
+
+
+
+----
+now I run the code for tensorflow
+512-256-17-1
+baseline:
+10
+Result from the previous epoch on dev:
+F1-BAD:  0.515399610136 F1-OK:  0.897077088681
+F1-score multiplied:  0.462353181769
+Result from the previous epoch on test:
+F1-BAD:  0.494732735076 F1-OK:  0.892806886847
+F1-score multiplied:  0.441700793025
+[ 79978  62975 104982 ..., 106252 110351  75418]
+
+and I used the results from the baseline as pre-training
+
+Matern12
+Epoch 7: \Dev set LL -0.9495129103340999, Acc 0.8344488739967346, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.512077294686 F1-OK:  0.900312551406
+F1-score multiplied:  0.461029615696
+Epoch 7: 
+Test set LL -0.9774145143733359, Acc 0.8273695707321167, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.494804156675 F1-OK:  0.895898534014
+F1-score multiplied:  0.443294318589
+[ 44555 140306 112838 ...,  74919 150399 165017]
+
+RBF
+Epoch 2: \Dev set LL -0.7937541243405875, Acc 0.8328097462654114, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.508828250401 F1-OK:  0.899259259259
+F1-score multiplied:  0.457568515546
+Epoch 2: 
+Test set LL -0.8319089715712372, Acc 0.8263452649116516, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.490686961746 F1-OK:  0.895328256843
+F1-score multiplied:  0.439325902116
+
+
