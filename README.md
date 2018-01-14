@@ -290,3 +290,32 @@ Test set LL -0.8693412485538202, Acc 0.8281890153884888, Outputs [1 1 1 ..., 1 1
 Result from the previous epoch on test:
 F1-BAD:  0.486320947325 F1-OK:  0.89684296843
 F1-score multiplied:  0.436153522009
+
+
+deeper network:
+512-256-128-17-output
+
+baseline - epoch 6:
+
+Result from the previous epoch on dev:
+F1-BAD:  0.498638661999 F1-OK:  0.893215143733
+F1-score multiplied:  0.445391604148
+Result from the previous epoch on test:
+F1-BAD:  0.484056857472 F1-OK:  0.888464413255
+F1-score multiplied:  0.430067291856
+[211235 108099  35584 ..., 173533 203627 154044]
+
+
+Matern12
+
+Epoch 4: \Dev set LL -0.9304697710619161, Acc 0.8232482075691223, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.503834355828 F1-OK:  0.892471331228
+F1-score multiplied:  0.449657718265
+Epoch 4: 
+Test set LL -0.9586520539179797, Acc 0.8188336491584778, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.492831198624 F1-OK:  0.889720247745
+F1-score multiplied:  0.438481896136
+[ 82707 140148 157986 ...,  51883 106201 103473]
+
