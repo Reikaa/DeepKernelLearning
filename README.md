@@ -264,3 +264,29 @@ F1-BAD:  0.490686961746 F1-OK:  0.895328256843
 F1-score multiplied:  0.439325902116
 
 
+
+Matern52:
+
+Epoch 3: \Dev set LL -0.8526977758464622, Acc 0.8343122601509094, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.502256873205 F1-OK:  0.900614502253
+F1-score multiplied:  0.452339823865
+Epoch 3: 
+Test set LL -0.8996582731967095, Acc 0.8266184329986572, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.483207815998 F1-OK:  0.895835897436
+F1-score multiplied:  0.432874907493
+[ 97998  95754  98742 ..., 203012 213193 125451]
+
+
+Matern32:
+
+Epoch 3: \Dev set LL -0.8293870780170994, Acc 0.8341756463050842, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.5 F1-OK:  0.900605862125
+F1-score multiplied:  0.450302931063
+Epoch 3: 
+Test set LL -0.8693412485538202, Acc 0.8281890153884888, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.486320947325 F1-OK:  0.89684296843
+F1-score multiplied:  0.436153522009
