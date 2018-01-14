@@ -166,6 +166,8 @@ F1-BAD:  0.470588235294 F1-OK:  0.904193548387
 F1-score multiplied:  0.4255028463
 
 
+
+
 Matern12: (more detailed) https://drive.google.com/file/d/1e95Au14DdZ2WSTMi_I6gpt-ap7vuNIs6/view?usp=sharing
 
 Epoch 23: \Dev set LL -1.0098853155593643, Acc 0.8431908488273621, Outputs [1 1 1 ..., 1 1 1]
@@ -179,3 +181,43 @@ F1-BAD:  0.470256187581 F1-OK:  0.90114253302
 F1-score multiplied:  0.423767852045
 
 
+
+
+
+----
+now I run the code for tensorflow
+512-256-17-1
+baseline:
+6
+[211235 108099  35584 ..., 173533 203627 154044]
+Result from the previous epoch on dev:
+F1-BAD:  0.499796830557 F1-OK:  0.898940973647
+F1-score multiplied:  0.449287849487
+Result from the previous epoch on test:
+F1-BAD:  0.485190409027 F1-OK:  0.894964028777
+F1-score multiplied:  0.434227963187
+
+RBF:
+
+Epoch 39: \Dev set LL -1.0627435747788827, Acc 0.8366343379020691, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.497478991597 F1-OK:  0.902462893492
+F1-score multiplied:  0.448956330208
+Epoch 39: 
+Test set LL -1.1335080609318582, Acc 0.8257306814193726, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.468333333333 F1-OK:  0.895785690951
+F1-score multiplied:  0.419526298595
+
+
+matern12:
+Epoch 17: \Dev set LL -0.9767212579140047, Acc 0.8451031446456909, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.495102404274 F1-OK:  0.908518877057
+F1-score multiplied:  0.44980988036
+Epoch 17: 
+Test set LL -1.022837668817143, Acc 0.8361786603927612, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.471702268223 F1-OK:  0.903058956641
+F1-score multiplied:  0.425974958187
+[151463 159307 100073 ...,  99926  64887  45399]
