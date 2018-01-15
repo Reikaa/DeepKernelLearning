@@ -75,7 +75,7 @@ F1-score multiplied:  0.407667598265
 
 Baseline: 512-256-17-output
 
-Baseline:
+Baseline: - with keras
 Epoch:  21
 Valid:
 F1-BAD:  0.490836653386 F1-OK:  0.894658753709
@@ -83,6 +83,19 @@ F1-score multiplied:  0.439131308594
 Test:
 F1-BAD:  0.459352801894 F1-OK:  0.886870355078
 F1-score multiplied:  0.407386382522
+
+
+Baseline - with my tensorflow:
+epoch: 
+14
+Result from the previous epoch on dev:
+F1-BAD:  0.469244288225 F1-OK:  0.902312793142
+F1-score multiplied:  0.423405124374
+Result from the previous epoch on test:
+F1-BAD:  0.450201741346 F1-OK:  0.894666178445
+F1-score multiplied:  0.40278027146
+[ 95272 217111 176486 ..., 183877 161754 214087]
+epoch: 
 
 Gaussian Processes
 
@@ -111,6 +124,21 @@ Result from the previous epoch on test:
 F1-BAD:  0.45861774744 F1-OK:  0.896829268293
 F1-score multiplied:  0.411301818863
 
+Matern12 with pre-training:
+
+Epoch 7: \Dev set LL -0.9269897989714446, Acc 0.8373172879219055, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.493407060825 F1-OK:  0.903099829143
+F1-score multiplied:  0.445595832329
+Epoch 7: 
+Test set LL -1.0031441810312096, Acc 0.8231357336044312, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.461090303787 F1-OK:  0.894207989543
+F1-score multiplied:  0.412310633547
+[ 44555 140306 112838 ...,  74919 150399 165017]
+
+
+
 
 RBF:
 
@@ -125,6 +153,19 @@ F1-BAD:  0.441891891892 F1-OK:  0.900273663876
 F1-score multiplied:  0.397823632551
 [ 86065 158811  87623 ...,  10358 112387 134839]
 
+
+RBF with pre-training:
+
+Epoch 11: \Dev set LL -1.0214825326985937, Acc 0.8356781601905823, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.486993603412 F1-OK:  0.902171261283
+F1-score multiplied:  0.439351633427
+Epoch 11: 
+Test set LL -1.0950924530623292, Acc 0.8225211501121521, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.458428839342 F1-OK:  0.893870717465
+F1-score multiplied:  0.409776115529
+[ 78595 203579  77628 ..., 171197 169790 184869]
 
 
 ------
@@ -318,4 +359,59 @@ Result from the previous epoch on test:
 F1-BAD:  0.492831198624 F1-OK:  0.889720247745
 F1-score multiplied:  0.438481896136
 [ 82707 140148 157986 ...,  51883 106201 103473]
+
+
+
+216 features: train with pre-training
+
+network: 512-256-17-output
+baseline:
+epoch: 
+4
+Result from the previous epoch on dev:
+F1-BAD:  0.501399440224 F1-OK:  0.897290173791
+F1-score multiplied:  0.449900790857
+Result from the previous epoch on test:
+F1-BAD:  0.484513710791 F1-OK:  0.892109500805
+F1-score multiplied:  0.432239284667
+[ 82707 140148 157986 ...,  51883 106201 103473]
+
+Our - Matern12
+Epoch 7: \Dev set LL -0.9919056734849215, Acc 0.8246141076087952, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.512528473804 F1-OK:  0.893071285809
+F1-score multiplied:  0.457724463114
+Epoch 7: 
+Test set LL -1.0410420331300183, Acc 0.8158972859382629, Outputs [1 1 1 ..., 1 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.489393939394 F1-OK:  0.887704098634
+F1-score multiplied:  0.434437005847
+
+RBF:
+
+Epoch 13: \Dev set LL -0.9810681383297054, Acc 0.8430542349815369, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.504100129478 F1-OK:  0.90677484787
+F1-score multiplied:  0.457105318219
+Epoch 13: 
+Test set LL -1.0474645150024602, Acc 0.8326959609985352, Outputs [1 1 1 ..., 1 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.478501489996 F1-OK:  0.90036600244
+F1-score multiplied:  0.430826473709
+
+
+Matern12 without pre-training
+
+Epoch 19: \Dev set LL -1.013438401281861, Acc 0.8397759795188904, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.479360852197 F1-OK:  0.905319234805
+F1-score multiplied:  0.433974599907
+Epoch 19: 
+Test set LL -1.0505727824796036, Acc 0.8345397710800171, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.466181978409 F1-OK:  0.902097054426
+F1-score multiplied:  0.42054138955
+[   873  43953 181616 ..., 181234   7816  90895]
+
+
 
