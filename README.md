@@ -415,3 +415,15 @@ F1-score multiplied:  0.42054138955
 
 
 
+RBF without pre-training
+
+Epoch 20: \Dev set LL -1.0611289695849617, Acc 0.8343122601509094, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.490977759127 F1-OK:  0.901052288115
+F1-score multiplied:  0.442396633275
+Epoch 20: 
+Test set LL -1.141914249989954, Acc 0.821906566619873, Outputs [1 1 1 ..., 1 1 1]
+Result from the previous epoch on test:
+F1-BAD:  0.460264900662 F1-OK:  0.893359502781
+F1-score multiplied:  0.411182022803
+[139636 198046 199708 ...,  32597 183833  57999]
