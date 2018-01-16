@@ -427,3 +427,43 @@ Result from the previous epoch on test:
 F1-BAD:  0.460264900662 F1-OK:  0.893359502781
 F1-score multiplied:  0.411182022803
 [139636 198046 199708 ...,  32597 183833  57999]
+
+
+
+
+=---------------------------------------------------------
+Results with English-to-German
+Baseline:72-512-256-17-1
+maximum 30 iterations
+
+29
+Result from the previous epoch on dev:
+F1-BAD:  0.530168716042 F1-OK:  0.702732042699
+F1-score multiplied:  0.3725665448
+Result from the previous epoch on test:
+F1-BAD:  0.518600601551 F1-OK:  0.699891443797
+F1-score multiplied:  0.362964123774
+Result from the previous epoch on test:
+F1-BAD:  0.50467159392 F1-OK:  0.680259249257
+F1-score multiplied:  0.343307519602
+[236416  34551  51158 ..., 242429  27062  62833]
+Done!
+
+
+Matern12 with pre-train:
+
+Epoch 49: \Dev set LL -2.304943293720357, Acc 0.6436170339584351, Outputs [1 0 0 ..., 0 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.530373831776 F1-OK:  0.712857142857
+F1-score multiplied:  0.378080774366
+Epoch 49: 
+Test set LL -2.3342309966711405, Acc 0.636231005191803, Outputs [1 0 0 ..., 0 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.517574975814 F1-OK:  0.708040593286
+F1-score multiplied:  0.366464092946
+Epoch 49: 
+Test set LL -2.432163270645982, Acc 0.6236870884895325, Outputs [1 1 0 ..., 1 1 0]
+Result from the previous epoch on test:
+F1-BAD:  0.503643841547 F1-OK:  0.696973701599
+F1-score multiplied:  0.351026512531
+[170550 153814  80248 ..., 180904 272190 220843]
