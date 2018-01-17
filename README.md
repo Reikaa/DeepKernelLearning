@@ -490,3 +490,89 @@ F1-score multiplied:  0.34249797401
 [215935 137192 311492 ..., 304011  32029 253544]
 
 
+Matern32 with pre-train
+Epoch 49: \Dev set LL -2.390197871213981, Acc 0.6337544322013855, Outputs [1 0 0 ..., 0 1 0]
+Result from the previous epoch on dev:
+F1-BAD:  0.536400617197 F1-OK:  0.697316604085
+F1-score multiplied:  0.374041056813
+Epoch 49: 
+Test set LL -2.4537811196708676, Acc 0.6229179501533508, Outputs [1 0 0 ..., 0 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.522736016004 F1-OK:  0.688338441441
+F1-score multiplied:  0.359819294541
+Epoch 49: 
+Test set LL -2.5909655766607576, Acc 0.6041028499603271, Outputs [1 1 0 ..., 1 1 0]
+Result from the previous epoch on test:
+F1-BAD:  0.50141233207 F1-OK:  0.671716942617
+F1-score multiplied:  0.336807158689
+[170550 153814  80248 ..., 180904 272190 220843]
+Done!
+
+Matern32 without pre-train
+
+Epoch 27: \Dev set LL -2.41257187262274, Acc 0.6289893388748169, Outputs [1 0 0 ..., 0 1 0]
+Result from the previous epoch on dev:
+F1-BAD:  0.51882724921 F1-OK:  0.698106402164
+F1-score multiplied:  0.36219662429
+Epoch 27: 
+Test set LL -2.4734187258226923, Acc 0.6200000047683716, Outputs [1 0 0 ..., 0 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.507601417881 F1-OK:  0.690621133383
+F1-score multiplied:  0.350560266524
+Epoch 27: 
+Test set LL -2.536608869289372, Acc 0.6087527275085449, Outputs [0 1 0 ..., 1 1 0]
+Result from the previous epoch on test:
+F1-BAD:  0.501185660483 F1-OK:  0.678156781568
+F1-score multiplied:  0.339882454481
+[125917  94384 282921 ..., 287261 206878 288006]
+
+Matern52 without pre-train
+Epoch 11: \Dev set LL -2.414924391611122, Acc 0.6191267967224121, Outputs [1 0 0 ..., 0 1 0]
+Result from the previous epoch on dev:
+F1-BAD:  0.508929847121 F1-OK:  0.688931124989
+F1-score multiplied:  0.350617612117
+Epoch 11: 
+Test set LL -2.4710455014376866, Acc 0.6121580600738525, Outputs [1 0 0 ..., 0 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.497162673392 F1-OK:  0.684345933109
+F1-score multiplied:  0.34023125363
+Epoch 11: 
+Test set LL -2.57481057104963, Acc 0.5980306267738342, Outputs [1 1 0 ..., 1 1 0]
+Result from the previous epoch on test:
+F1-BAD:  0.493520816101 F1-OK:  0.666787592962
+F1-score multiplied:  0.329073557045
+[236944  67973 205470 ..., 168422 308493 212732]
+
+RBF without pre-train
+
+Epoch 33: \Dev set LL -2.585161781631039, Acc 0.6068262457847595, Outputs [1 0 0 ..., 0 1 0]
+Result from the previous epoch on dev:
+F1-BAD:  0.528567632208 F1-OK:  0.662801748717
+F1-score multiplied:  0.350335550943
+Epoch 33: 
+Test set LL -2.664540284145497, Acc 0.5942857265472412, Outputs [1 0 0 ..., 0 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.514335613448 F1-OK:  0.651633782232
+F1-score multiplied:  0.335158461128
+Epoch 33: 
+Test set LL -2.7623289783155762, Acc 0.5807986855506897, Outputs [1 1 0 ..., 1 1 0]
+Result from the previous epoch on test:
+F1-BAD:  0.503530936184 F1-OK:  0.63725443787
+F1-score multiplied:  0.320877323688
+
+Matern12 without pre-train
+Epoch 33: \Dev set LL -2.51836834805866, Acc 0.610704779624939, Outputs [1 0 0 ..., 0 1 0]
+Result from the previous epoch on dev:
+F1-BAD:  0.523273171394 F1-OK:  0.671036613915
+F1-score multiplied:  0.351135457085
+Epoch 33: 
+Test set LL -2.571270450345819, Acc 0.603161096572876, Outputs [1 0 0 ..., 0 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.518938835667 F1-OK:  0.662286601138
+F1-score multiplied:  0.343686237672
+Epoch 33: 
+Test set LL -2.695880803336656, Acc 0.5867067575454712, Outputs [0 1 0 ..., 1 1 0]
+Result from the previous epoch on test:
+F1-BAD:  0.502010414607 F1-OK:  0.646781055683
+F1-score multiplied:  0.324690825923
+[215935 137192 311492 ..., 304011  32029 253544]
