@@ -467,3 +467,26 @@ Result from the previous epoch on test:
 F1-BAD:  0.503643841547 F1-OK:  0.696973701599
 F1-score multiplied:  0.351026512531
 [170550 153814  80248 ..., 180904 272190 220843]
+
+
+RBF with pre-train:
+
+
+[128949 262150 113820 ...,  94096 261192  78313]
+Epoch 33: \Dev set LL -2.3081468257326656, Acc 0.6423980593681335, Outputs [1 0 0 ..., 0 1 1]
+Result from the previous epoch on dev:
+F1-BAD:  0.51929092805 F1-OK:  0.715306572563
+F1-score multiplied:  0.371452213906
+Epoch 33: 
+Test set LL -2.3571965879883665, Acc 0.634650468826294, Outputs [1 1 0 ..., 0 0 1]
+Result from the previous epoch on test:
+F1-BAD:  0.506406044678 F1-OK:  0.709998069871
+F1-score multiplied:  0.359547314292
+Epoch 33: 
+Test set LL -2.4491446479420333, Acc 0.6204594969749451, Outputs [1 1 0 ..., 1 1 0]
+Result from the previous epoch on test:
+F1-BAD:  0.491125128356 F1-OK:  0.697374160342
+F1-score multiplied:  0.34249797401
+[215935 137192 311492 ..., 304011  32029 253544]
+
+
