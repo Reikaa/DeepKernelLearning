@@ -2345,3 +2345,561 @@ F1-BAD:  0.465279128574 F1-OK:  0.886155630099
 F1-score multiplied:  0.412309719354
 [ 44559 117975   7356 ..., 164492 159093  15768]
 Done!
+
+
+
+
+----
+
+phrase level - 72 features - shallow network
+
+
+
+0
+[157230  58090 106355 ...,  43269 152588 159419]
+epoch: 
+1
+Result from the previous epoch on dev:
+F1-BAD:  0.386895475819 F1-OK:  0.907304033336
+F1-score multiplied:  0.35103182569
+Result from the previous epoch on test:
+F1-BAD:  0.374714394516 F1-OK:  0.902836403803
+F1-score multiplied:  0.338305796398
+[ 10604 112260   2170 ...,  24253  38081  64020]
+epoch: 
+2
+Result from the previous epoch on dev:
+F1-BAD:  0.397212543554 F1-OK:  0.904139950922
+F1-score multiplied:  0.359135729635
+Result from the previous epoch on test:
+F1-BAD:  0.382301764852 F1-OK:  0.901642588561
+F1-score multiplied:  0.344699552873
+[ 16587 157088  51334 ...,  99848  92538  64243]
+epoch: 
+3
+Result from the previous epoch on dev:
+F1-BAD:  0.414888337469 F1-OK:  0.906628652887
+F1-score multiplied:  0.376149654498
+Result from the previous epoch on test:
+F1-BAD:  0.391697191697 F1-OK:  0.901123327909
+F1-score multiplied:  0.352967476915
+[ 97998  95754  98742 ..., 203012 213193 125451]
+epoch: 
+4
+Result from the previous epoch on dev:
+F1-BAD:  0.431464908149 F1-OK:  0.903586548446
+F1-score multiplied:  0.38986588713
+Result from the previous epoch on test:
+F1-BAD:  0.409101571663 F1-OK:  0.899340659341
+F1-score multiplied:  0.367921677197
+[ 82707 140148 157986 ...,  51883 106201 103473]
+epoch: 
+5
+Result from the previous epoch on dev:
+F1-BAD:  0.42471042471 F1-OK:  0.905171042164
+F1-score multiplied:  0.384435577753
+Result from the previous epoch on test:
+F1-BAD:  0.403634624582 F1-OK:  0.900661196527
+F1-score multiplied:  0.363538043935
+[ 96593 186600 181132 ...,  40532  34553 129546]
+epoch: 
+6
+Result from the previous epoch on dev:
+F1-BAD:  0.434535104364 F1-OK:  0.904898675602
+F1-score multiplied:  0.393210240442
+Result from the previous epoch on test:
+F1-BAD:  0.408918406072 F1-OK:  0.900606253989
+F1-score multiplied:  0.36827447388
+[211235 108099  35584 ..., 173533 203627 154044]
+epoch: 
+7
+Result from the previous epoch on dev:
+F1-BAD:  0.431316042267 F1-OK:  0.905732484076
+F1-score multiplied:  0.390656950385
+Result from the previous epoch on test:
+F1-BAD:  0.410684474124 F1-OK:  0.901534170153
+F1-score multiplied:  0.370246086574
+[ 44555 140306 112838 ...,  74919 150399 165017]
+epoch: 
+8
+Result from the previous epoch on dev:
+F1-BAD:  0.434657730972 F1-OK:  0.905918903848
+F1-score multiplied:  0.393764655191
+Result from the previous epoch on test:
+F1-BAD:  0.408766079085 F1-OK:  0.901076125947
+F1-score multiplied:  0.368329354961
+[169730  20673 186182 ...,  67812 116880 108578]
+epoch: 
+9
+Result from the previous epoch on dev:
+F1-BAD:  0.446892904363 F1-OK:  0.898569465772
+F1-score multiplied:  0.401564318331
+Result from the previous epoch on test:
+F1-BAD:  0.428159005108 F1-OK:  0.896106516038
+F1-score multiplied:  0.383676074377
+[ 41613 123879  70949 ...,  98250 105271 211104]
+epoch: 
+10
+Result from the previous epoch on dev:
+F1-BAD:  0.441176470588 F1-OK:  0.902454676721
+F1-score multiplied:  0.398141769141
+Result from the previous epoch on test:
+F1-BAD:  0.421197522368 F1-OK:  0.898792570901
+F1-score multiplied:  0.378569203986
+[ 79978  62975 104982 ..., 106252 110351  75418]
+epoch: 
+11
+Result from the previous epoch on dev:
+F1-BAD:  0.44896073903 F1-OK:  0.904384066683
+F1-score multiplied:  0.406032938945
+Result from the previous epoch on test:
+F1-BAD:  0.420253164557 F1-OK:  0.899009742212
+F1-score multiplied:  0.377811689132
+[ 78595 203579  77628 ..., 171197 169790 184869]
+epoch: 
+12
+Result from the previous epoch on dev:
+F1-BAD:  0.445185891325 F1-OK:  0.907206632653
+F1-score multiplied:  0.403875593374
+Result from the previous epoch on test:
+F1-BAD:  0.413858566682 F1-OK:  0.901491584909
+F1-score multiplied:  0.373090015207
+[161145   8624 103629 ..., 131598  77971 145710]
+epoch: 
+13
+Result from the previous epoch on dev:
+F1-BAD:  0.450442477876 F1-OK:  0.899693102891
+F1-score multiplied:  0.405259990594
+Result from the previous epoch on test:
+F1-BAD:  0.428635749662 F1-OK:  0.897850760686
+F1-score multiplied:  0.384850933891
+[ 88180  37890  33658 ..., 138465 165899 187250]
+epoch: 
+14
+Result from the previous epoch on dev:
+F1-BAD:  0.447284345048 F1-OK:  0.902738735845
+F1-score multiplied:  0.403780904212
+Result from the previous epoch on test:
+F1-BAD:  0.426259402781 F1-OK:  0.8989197221
+F1-score multiplied:  0.38317298389
+[ 95272 217111 176486 ..., 183877 161754 214087]
+epoch: 
+15
+Result from the previous epoch on dev:
+F1-BAD:  0.444231689804 F1-OK:  0.90751214849
+F1-score multiplied:  0.403145655241
+Result from the previous epoch on test:
+F1-BAD:  0.417938931298 F1-OK:  0.902773350335
+F1-score multiplied:  0.377304129243
+[ 43428  23203 165494 ...,  87260 127806  73850]
+epoch: 
+16
+Result from the previous epoch on dev:
+F1-BAD:  0.442669172932 F1-OK:  0.905226146716
+F1-score multiplied:  0.400715709683
+Result from the previous epoch on test:
+F1-BAD:  0.424341338307 F1-OK:  0.901236049442
+F1-score multiplied:  0.382431711351
+[204644  31141 103650 ...,  30090  81702 136580]
+epoch: 
+17
+Result from the previous epoch on dev:
+F1-BAD:  0.459299681673 F1-OK:  0.904444265852
+F1-score multiplied:  0.415410963397
+Result from the previous epoch on test:
+F1-BAD:  0.426551094891 F1-OK:  0.899052361066
+F1-score multiplied:  0.383491768977
+[151463 159307 100073 ...,  99926  64887  45399]
+epoch: 
+18
+Result from the previous epoch on dev:
+F1-BAD:  0.448275862069 F1-OK:  0.905249679898
+F1-score multiplied:  0.405801580644
+Result from the previous epoch on test:
+F1-BAD:  0.423960993731 F1-OK:  0.900684520235
+F1-score multiplied:  0.381855104237
+[ 77558  65635  39900 ...,  52102 175656  30661]
+epoch: 
+19
+Result from the previous epoch on dev:
+F1-BAD:  0.458240285842 F1-OK:  0.902201080384
+F1-score multiplied:  0.413424880962
+Result from the previous epoch on test:
+F1-BAD:  0.43245673185 F1-OK:  0.898345344015
+F1-score multiplied:  0.388495491545
+[   873  43953 181616 ..., 181234   7816  90895]
+epoch: 
+20
+Result from the previous epoch on dev:
+F1-BAD:  0.459962756052 F1-OK:  0.907155434609
+F1-score multiplied:  0.41725771387
+Result from the previous epoch on test:
+F1-BAD:  0.422934076137 F1-OK:  0.900480384307
+F1-score multiplied:  0.380843839417
+[139636 198046 199708 ...,  32597 183833  57999]
+epoch: 
+21
+Result from the previous epoch on dev:
+F1-BAD:  0.46160635481 F1-OK:  0.901422107304
+F1-score multiplied:  0.416102173098
+Result from the previous epoch on test:
+F1-BAD:  0.433962264151 F1-OK:  0.89567327133
+F1-score multiplied:  0.388688400766
+[ 48250  85392  96772 ..., 159417  47120  80258]
+epoch: 
+22
+Result from the previous epoch on dev:
+F1-BAD:  0.454377880184 F1-OK:  0.905067350866
+F1-score multiplied:  0.411242584311
+Result from the previous epoch on test:
+F1-BAD:  0.423556581986 F1-OK:  0.899991986537
+F1-score multiplied:  0.381197529633
+[ 94976 169993 129145 ..., 212870  49486 180803]
+epoch: 
+23
+Result from the previous epoch on dev:
+F1-BAD:  0.462169553327 F1-OK:  0.905205655527
+F1-score multiplied:  0.418358493484
+Result from the previous epoch on test:
+F1-BAD:  0.426460559218 F1-OK:  0.898629916831
+F1-score multiplied:  0.383230216862
+[188706 216106  14316 ...,  23716  33182   2019]
+epoch: 
+24
+Result from the previous epoch on dev:
+F1-BAD:  0.461047835991 F1-OK:  0.904957017755
+F1-score multiplied:  0.417228474701
+Result from the previous epoch on test:
+F1-BAD:  0.428440786465 F1-OK:  0.899654812555
+F1-score multiplied:  0.385448815439
+[ 49555 204099 199462 ..., 142630  30997  94732]
+epoch: 
+25
+Result from the previous epoch on dev:
+F1-BAD:  0.458553791887 F1-OK:  0.900759657346
+F1-score multiplied:  0.413046756455
+Result from the previous epoch on test:
+F1-BAD:  0.434724983433 F1-OK:  0.896651993054
+F1-score multiplied:  0.389797022825
+[ 10586  40093 110450 ..., 135123  16134  39003]
+epoch: 
+26
+Result from the previous epoch on dev:
+F1-BAD:  0.46091278807 F1-OK:  0.904014804087
+F1-score multiplied:  0.416671983809
+Result from the previous epoch on test:
+F1-BAD:  0.432224485178 F1-OK:  0.89911134344
+F1-score multiplied:  0.388617937536
+[124016  93299 142951 ..., 121315 130112 138434]
+epoch: 
+27
+Result from the previous epoch on dev:
+F1-BAD:  0.458813108946 F1-OK:  0.901324289406
+F1-score multiplied:  0.413539399391
+Result from the previous epoch on test:
+F1-BAD:  0.437569060773 F1-OK:  0.897225699633
+F1-score multiplied:  0.39259820669
+[  9469 193383  39949 ..., 202484  63420  57130]
+epoch: 
+28
+Result from the previous epoch on dev:
+F1-BAD:  0.460296096904 F1-OK:  0.903085474905
+F1-score multiplied:  0.41568671927
+Result from the previous epoch on test:
+F1-BAD:  0.436704621567 F1-OK:  0.898303035189
+F1-score multiplied:  0.392293087035
+[ 70289  17736 199270 ...,  16586  34471 159323]
+epoch: 
+29
+Result from the previous epoch on dev:
+F1-BAD:  0.461059190031 F1-OK:  0.90229931424
+F1-score multiplied:  0.416013390989
+Result from the previous epoch on test:
+F1-BAD:  0.435612788632 F1-OK:  0.897433828276
+F1-score multiplied:  0.390933652548
+[ 44559 117975   7356 ..., 164492 159093  15768]
+Done!
+
+
+
+
+
+-------
+
+phrase - 72 features - deeper network 
+
+
+
+
+Using TensorFlow backend.
+217872
+14644
+7321
+2018-03-13 17:39:34.717750: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+epoch: 
+0
+[157230  58090 106355 ...,  43269 152588 159419]
+epoch: 
+1
+Result from the previous epoch on dev:
+F1-BAD:  0.423357664234 F1-OK:  0.905855247478
+F1-score multiplied:  0.383500761706
+Result from the previous epoch on test:
+F1-BAD:  0.398635477583 F1-OK:  0.902001270648
+F1-score multiplied:  0.359569707305
+[ 10604 112260   2170 ...,  24253  38081  64020]
+epoch: 
+2
+Result from the previous epoch on dev:
+F1-BAD:  0.437209302326 F1-OK:  0.903138008325
+F1-score multiplied:  0.394860338524
+Result from the previous epoch on test:
+F1-BAD:  0.414279004227 F1-OK:  0.900359568518
+F1-score multiplied:  0.373000065492
+[ 16587 157088  51334 ...,  99848  92538  64243]
+epoch: 
+3
+Result from the previous epoch on dev:
+F1-BAD:  0.432203389831 F1-OK:  0.903658731427
+F1-score multiplied:  0.390564366973
+Result from the previous epoch on test:
+F1-BAD:  0.414870944826 F1-OK:  0.901416317574
+F1-score multiplied:  0.373971439354
+[ 97998  95754  98742 ..., 203012 213193 125451]
+epoch: 
+4
+Result from the previous epoch on dev:
+F1-BAD:  0.457142857143 F1-OK:  0.896478815971
+F1-score multiplied:  0.409818887301
+Result from the previous epoch on test:
+F1-BAD:  0.437977909941 F1-OK:  0.892351505289
+F1-score multiplied:  0.390830247219
+[ 82707 140148 157986 ...,  51883 106201 103473]
+epoch: 
+5
+Result from the previous epoch on dev:
+F1-BAD:  0.459955257271 F1-OK:  0.902716208592
+F1-score multiplied:  0.415209065965
+Result from the previous epoch on test:
+F1-BAD:  0.432685867381 F1-OK:  0.897577492039
+F1-score multiplied:  0.388369095685
+[ 96593 186600 181132 ...,  40532  34553 129546]
+epoch: 
+6
+Result from the previous epoch on dev:
+F1-BAD:  0.45871559633 F1-OK:  0.899700477617
+F1-score multiplied:  0.412706641109
+Result from the previous epoch on test:
+F1-BAD:  0.442894507411 F1-OK:  0.896518218623
+F1-score multiplied:  0.397062994822
+[211235 108099  35584 ..., 173533 203627 154044]
+epoch: 
+7
+Result from the previous epoch on dev:
+F1-BAD:  0.466895958727 F1-OK:  0.899317960377
+F1-score multiplied:  0.419887921311
+Result from the previous epoch on test:
+F1-BAD:  0.447357112162 F1-OK:  0.895591458959
+F1-score multiplied:  0.400649208757
+[ 44555 140306 112838 ...,  74919 150399 165017]
+epoch: 
+8
+Result from the previous epoch on dev:
+F1-BAD:  0.472817133443 F1-OK:  0.895202226953
+F1-score multiplied:  0.4232669508
+Result from the previous epoch on test:
+F1-BAD:  0.456673511294 F1-OK:  0.891637316734
+F1-score multiplied:  0.407187144233
+[169730  20673 186182 ...,  67812 116880 108578]
+epoch: 
+9
+Result from the previous epoch on dev:
+F1-BAD:  0.473604826546 F1-OK:  0.883569641368
+F1-score multiplied:  0.418462846741
+Result from the previous epoch on test:
+F1-BAD:  0.459065986009 F1-OK:  0.880786699446
+F1-score multiplied:  0.404339214644
+[ 41613 123879  70949 ...,  98250 105271 211104]
+epoch: 
+10
+Result from the previous epoch on dev:
+F1-BAD:  0.477216238608 F1-OK:  0.896794242722
+F1-score multiplied:  0.427964775317
+Result from the previous epoch on test:
+F1-BAD:  0.456632134877 F1-OK:  0.890211368767
+F1-score multiplied:  0.406499117812
+[ 79978  62975 104982 ..., 106252 110351  75418]
+epoch: 
+11
+Result from the previous epoch on dev:
+F1-BAD:  0.46980424823 F1-OK:  0.896005228331
+F1-score multiplied:  0.420947062706
+Result from the previous epoch on test:
+F1-BAD:  0.455461839128 F1-OK:  0.89163630409
+F1-score multiplied:  0.406106310894
+[ 78595 203579  77628 ..., 171197 169790 184869]
+epoch: 
+12
+Result from the previous epoch on dev:
+F1-BAD:  0.473773265651 F1-OK:  0.898680566868
+F1-score multiplied:  0.425770826942
+Result from the previous epoch on test:
+F1-BAD:  0.445275181724 F1-OK:  0.890859314346
+F1-score multiplied:  0.396677543086
+[161145   8624 103629 ..., 131598  77971 145710]
+epoch: 
+13
+Result from the previous epoch on dev:
+F1-BAD:  0.471590909091 F1-OK:  0.893085892593
+F1-score multiplied:  0.421171187984
+Result from the previous epoch on test:
+F1-BAD:  0.452669902913 F1-OK:  0.888843246796
+F1-score multiplied:  0.402352586232
+[ 88180  37890  33658 ..., 138465 165899 187250]
+epoch: 
+14
+Result from the previous epoch on dev:
+F1-BAD:  0.469342743714 F1-OK:  0.902787878788
+F1-score multiplied:  0.423716940022
+Result from the previous epoch on test:
+F1-BAD:  0.445736434109 F1-OK:  0.895552670021
+F1-score multiplied:  0.399180453692
+[ 95272 217111 176486 ..., 183877 161754 214087]
+epoch: 
+15
+Result from the previous epoch on dev:
+F1-BAD:  0.475998386446 F1-OK:  0.893200690619
+F1-score multiplied:  0.425162087507
+Result from the previous epoch on test:
+F1-BAD:  0.457667731629 F1-OK:  0.888138385502
+F1-score multiplied:  0.406472280266
+[ 43428  23203 165494 ...,  87260 127806  73850]
+epoch: 
+16
+Result from the previous epoch on dev:
+F1-BAD:  0.47741364039 F1-OK:  0.904715762274
+F1-score multiplied:  0.431923645585
+Result from the previous epoch on test:
+F1-BAD:  0.437975233543 F1-OK:  0.895199513875
+F1-score multiplied:  0.392075216157
+[204644  31141 103650 ...,  30090  81702 136580]
+epoch: 
+17
+Result from the previous epoch on dev:
+F1-BAD:  0.465201465201 F1-OK:  0.906244983143
+F1-score multiplied:  0.42158649399
+Result from the previous epoch on test:
+F1-BAD:  0.43466607103 F1-OK:  0.897988795292
+F1-score multiplied:  0.390325261478
+[151463 159307 100073 ...,  99926  64887  45399]
+epoch: 
+18
+Result from the previous epoch on dev:
+F1-BAD:  0.470739000427 F1-OK:  0.899276481587
+F1-score multiplied:  0.42332451205
+Result from the previous epoch on test:
+F1-BAD:  0.450821376586 F1-OK:  0.892111605866
+F1-score multiplied:  0.402182982225
+[ 77558  65635  39900 ...,  52102 175656  30661]
+epoch: 
+19
+Result from the previous epoch on dev:
+F1-BAD:  0.469037155414 F1-OK:  0.890518164593
+F1-score multiplied:  0.417686106765
+Result from the previous epoch on test:
+F1-BAD:  0.459522878373 F1-OK:  0.88566228179
+F1-score multiplied:  0.406982080995
+[   873  43953 181616 ..., 181234   7816  90895]
+epoch: 
+20
+Result from the previous epoch on dev:
+F1-BAD:  0.459902525476 F1-OK:  0.901574485264
+F1-score multiplied:  0.414636382678
+Result from the previous epoch on test:
+F1-BAD:  0.446748757831 F1-OK:  0.89614339592
+F1-score multiplied:  0.400350948966
+[139636 198046 199708 ...,  32597 183833  57999]
+epoch: 
+21
+Result from the previous epoch on dev:
+F1-BAD:  0.473445862495 F1-OK:  0.895275526079
+F1-score multiplied:  0.423864493615
+Result from the previous epoch on test:
+F1-BAD:  0.454968629832 F1-OK:  0.889390890048
+F1-score multiplied:  0.40464495463
+[ 48250  85392  96772 ..., 159417  47120  80258]
+epoch: 
+22
+Result from the previous epoch on dev:
+F1-BAD:  0.464985994398 F1-OK:  0.889895412995
+F1-score multiplied:  0.413788903522
+Result from the previous epoch on test:
+F1-BAD:  0.460726846424 F1-OK:  0.885808853951
+F1-score multiplied:  0.408115919816
+[ 94976 169993 129145 ..., 212870  49486 180803]
+epoch: 
+23
+Result from the previous epoch on dev:
+F1-BAD:  0.468534680753 F1-OK:  0.907180104292
+F1-score multiplied:  0.42504534055
+Result from the previous epoch on test:
+F1-BAD:  0.43527036123 F1-OK:  0.898634771052
+F1-score multiplied:  0.391149081409
+[188706 216106  14316 ...,  23716  33182   2019]
+epoch: 
+24
+Result from the previous epoch on dev:
+F1-BAD:  0.460669274229 F1-OK:  0.899440888097
+F1-score multiplied:  0.414344781131
+Result from the previous epoch on test:
+F1-BAD:  0.44917756221 F1-OK:  0.893587549906
+F1-score multiplied:  0.401379477288
+[ 49555 204099 199462 ..., 142630  30997  94732]
+epoch: 
+25
+Result from the previous epoch on dev:
+F1-BAD:  0.473817567568 F1-OK:  0.898484601597
+F1-score multiplied:  0.425717788426
+Result from the previous epoch on test:
+F1-BAD:  0.452837977296 F1-OK:  0.891543591212
+F1-score multiplied:  0.403724796516
+[ 10586  40093 110450 ..., 135123  16134  39003]
+epoch: 
+26
+Result from the previous epoch on dev:
+F1-BAD:  0.449079754601 F1-OK:  0.889563007297
+F1-score multiplied:  0.399484737019
+Result from the previous epoch on test:
+F1-BAD:  0.452755122339 F1-OK:  0.886608136515
+F1-score multiplied:  0.401416375315
+[124016  93299 142951 ..., 121315 130112 138434]
+epoch: 
+27
+Result from the previous epoch on dev:
+F1-BAD:  0.458172458172 F1-OK:  0.897408821379
+F1-score multiplied:  0.411168005677
+Result from the previous epoch on test:
+F1-BAD:  0.446228607648 F1-OK:  0.893260028507
+F1-score multiplied:  0.398598178789
+[  9469 193383  39949 ..., 202484  63420  57130]
+epoch: 
+28
+Result from the previous epoch on dev:
+F1-BAD:  0.476735316552 F1-OK:  0.885856905158
+F1-score multiplied:  0.422319272101
+Result from the previous epoch on test:
+F1-BAD:  0.461538461538 F1-OK:  0.880564014851
+F1-score multiplied:  0.406414160701
+[ 70289  17736 199270 ...,  16586  34471 159323]
+epoch: 
+29
+Result from the previous epoch on dev:
+F1-BAD:  0.462940943321 F1-OK:  0.888192095057
+F1-score multiplied:  0.411180486336
+Result from the previous epoch on test:
+F1-BAD:  0.464513633727 F1-OK:  0.885184724468
+F1-score multiplied:  0.411180372882
+[ 44559 117975   7356 ..., 164492 159093  15768]
+Done!
+
+
