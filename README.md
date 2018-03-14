@@ -7727,3 +7727,6 @@ Result from the previous epoch on test:
 F1-BAD:  0.403435468895 F1-OK:  0.897117694155
 F1-score multiplied:  0.361929097596
 [191753 201171 122412 ...,  38797  37466 188023]
+
+
+
