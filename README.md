@@ -14588,3 +14588,7 @@ F1-score multiplied:  0.351576318565
 ^CTraceback (most recent call last):
 
 
+svm linear 614
+
+F1-BAD:  0.319672131148 F1-OK:  0.917553934503
+F1-score multiplied:  0.293316421685
